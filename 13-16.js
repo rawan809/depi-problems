@@ -1,4 +1,4 @@
-13
+// 13
 function basicOp(operation, value1, value2) {
     let ans = 0
     if (operation === '+')
@@ -11,7 +11,7 @@ function basicOp(operation, value1, value2) {
         ans = value1 / value2
     return ans;
 }
-14
+// 14
 function squareOrSquareRoot(array) {
     for (let i = 0; i < array.length;i++){
         let sqroot=Math.sqrt([array[i]]);
@@ -24,7 +24,7 @@ function squareOrSquareRoot(array) {
     }
     return array;
 }
-15
+// 15
 function countBy(x, n) {
     let z = [];
     let j=0;
@@ -34,11 +34,12 @@ function countBy(x, n) {
     }
     return z;
 }
-16
+// 16
 function noSpace(x){
     let newx=x.replaceAll(" ","")
     return newx
 }
+
 
 
 
